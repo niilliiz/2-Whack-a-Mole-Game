@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Abel", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.container {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+}
+
+.board {
+    width: 550px;
+    height: 550;
+    display: flex;
+    flex-flow: wrap row;
+    margin-top: 10px;
+}
+
+.startOver {
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px solid #333;
+    background-color: white;
+    color: #333;
+}
+
+.startOver:hover {
+    width: 203px;
+    height: 33px;
+    background-color: #333;
+    color: white;
+}
+
+.section {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #333;
+    width: 180px;
+    height: 180px;
+    margin: 0.4px;
+    border-radius: 3px;
+}
+
+.mole {
+    background-image: url(/asset/img/mole);
+}
+
+.timeOut {
+    color: green;
+    font-weight: bolder;
+}
+
+.finalResult {
+    color: red;
+    font-weight: bolder;
+}
