@@ -10,7 +10,7 @@ function createBoard() {
     let mole = 0;
     let score = 0;
     let count = 60;
-    let moveMoleInterval = setInterval(randomSection, 1000);
+    let moveMoleInterval = setInterval(randomSection, 800);
     let coundDownInterval = setInterval(timeCountDown, 1000);
 
     startOverBtn.addEventListener("click", createBoard);
